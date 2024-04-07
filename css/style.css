@@ -91,3 +91,28 @@ letter-spacing: -1.5px;
 color: #FFFFFF;
 transform: translate(-50%,-50%);
 }
+
+.gallery,.contacts{
+  margin-top: 104px;
+}
+
+.section_title{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+text-align: center;
+letter-spacing: -1.5px;
+color: #000000;
+margin-bottom: 80px;
+}
+
+.gallery_itm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+margin-bottom: 40px;
+}
+
