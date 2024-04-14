@@ -4,13 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="../css/reset.css" rel="stylesheet" />
-  <link href="../css/style.css" rel="stylesheet" />
+  <link href="../css/reset.css" rel="stylesheet" >
+  <link href="../css/style.css" rel="stylesheet" >
   <title>Paradise Tour</title>
 </head>
 
 <body>
-  <header class="header">
+  <header class="header" id="header">
     <div class="container">
       <nav class="header_nav">
         <div class="header_nav_menu">
@@ -18,11 +18,9 @@
           <span class="devider"></span>
           <span class="devider"></span>
           <ul class="header_nav_menu_list">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#home">About Us</a></li>
-            <li><a href="#home">Gallery</a></li>
-            <li><a href="#home">Testimonials</a></li>
-            <li><a href="#home">Contacts</a></li>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contacts">Contacts</a></li>
 
           </ul>
         </div>
@@ -41,31 +39,31 @@
     </div>
   </header>
   <main>
-    <section class="gallery">
+    <section class="gallery" id="gallery">
       <div class="container">
         <h2 class="section_title">Gallery</h2>
         <div class="gallery_wraper">
           <div class="gallery_itm">
-            <a class="gallery_itm_link" href="#">
+            <a class="gallery_itm_link" href="boardwalk.html">
               <img src="../img/landmark.png" alt="landmark">
             </a>
-            <a class="gallery_itm_link" href="#">
+            <a class="gallery_itm_link" href="everglades-tour.html">
               <img src="../img/landmark2.png" alt="landmark">
             </a>
           </div>
           <div class="gallery_itm">
-            <a class="gallery_itm_link" href="#">
+            <a class="gallery_itm_link" href="lincoln-road.html">
               <img src="../img/landmark3.png" alt="landmark">
             </a>
-            <a class="gallery_itm_link" href="#">
+            <a class="gallery_itm_link" href="lincoln-road.html">
               <img src="../img/landmark4.png" alt="landmark">
             </a>
           </div>
           <div class="gallery_itm">
-            <a class="gallery_itm_link" href="#">
+            <a class="gallery_itm_link" href="car-tour.html">
               <img src="../img/landmark5.png" alt="landmark">
             </a>
-            <a class="gallery_itm_link" href="#">
+            <a class="gallery_itm_link" href="beach.html">
               <img src="../img/landmark6.png" alt="landmark">
             </a>
           </div>
@@ -73,7 +71,7 @@
       </div>
 
     </section>
-    <section class="contacts">
+    <section class="contacts" id="contacts">
       <div class="container">
         <h2 class="section_title">Contact us</h2>
         <div class="contacts_wraper">
@@ -103,6 +101,9 @@
       <img class="footer_logo" src="../img/Logo_Miami.png" alt="Logotip">
     </div>
   </footer>
+  <a href="#header" class="uphead">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter"><path d="M11 8.414V18h2V8.414l4.293 4.293 1.414-1.414L12 4.586l-6.707 6.707 1.414 1.414z"></path></svg>
+  </a>
 </body>
 
 </html>
